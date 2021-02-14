@@ -1,22 +1,20 @@
 package pojo;
 
-public class User
-{
+public class User {
     private Results[] results;
 
     public User(Results[] results) {
         this.results = results;
     }
 
-    User() {}
+    User() {
+    }
 
-    public Results[] getResults ()
-    {
+    public Results[] getResults() {
         return results;
     }
 
-    public void setResults (Results[] results)
-    {
+    public void setResults(Results[] results) {
         this.results = results;
     }
 
